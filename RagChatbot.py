@@ -120,7 +120,7 @@ iface = gr.Interface(
     fn=ask_question,
     inputs=gr.Textbox(lines=2, label="Enter your question:"),
     outputs=gr.Textbox(lines=10, label="Response"),
-    title="RAG Chatbot with Ollama and Pinecone",
+    title="Talk to your Docs",
 )
 
 
